@@ -1,4 +1,7 @@
+{{ warnf "Rendering %s" .File.Path }}
 {{- if default true .Params.sidebar }}
+
+<p>Hello</p>
 
   <div class="hb-blog-sidebar pe-lg-1">
     {{- $opts := site.Params.hb.blog.sidebar.taxonomies }}
